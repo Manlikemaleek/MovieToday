@@ -9,9 +9,9 @@ const Home = () => {
         <Main />
 
         {/* <Row title='Up Coming' fetchURL={requests.requestUpcoming} /> */}
-        <Row title='Popular' fetchURL={requests.requestPopular} />
+        <Row rowID='1' title='Popular' fetchURL={requests.requestPopular} />
         {/* <Row title='Trending' fetchURL={requests.requestTrending} /> */}
-        <Row title='Top Rated' fetchURL={requests.requestTopRated} />
+        <Row rowID='2' title='Top Rated' fetchURL={requests.requestTopRated} />
         {/* <Row title='Similar' fetchURL={requests.requestSimilar} />
         */}
         
